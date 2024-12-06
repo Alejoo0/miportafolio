@@ -3,8 +3,16 @@
  * license: Apache License 2.0
  */
 
+/** 
+ *  Components
+ */
+
+import Header from './components/Header';
+
 const App = () => {
-    return <h1>Hello World</h1>
+    return (
+        <Header />
+    )
 }
 
 export default App;
