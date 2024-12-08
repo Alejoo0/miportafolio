@@ -4,7 +4,7 @@
  */
 
 /**
- * NOde MOdules
+ * NOde Modules
  */
 import { useState } from "react";
 
