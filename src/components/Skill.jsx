@@ -3,6 +3,11 @@
  * license: Apache License 2.0
  */
 
+/**
+ * Components
+ */
+import SkillCard from "./SkillCard";
+
 const skillItem = [
     {
       imgSrc: '/images/figma.svg',
@@ -48,7 +53,7 @@ const skillItem = [
 
 const Skill = () => {
     return (
-        <section className="section">|
+        <section className="section">
             <div className="container">
 
                 <h2 className="headline-2">
@@ -60,11 +65,16 @@ const Skill = () => {
                     exceptional, high-performing websites & applications.
                 </p>
                 
-                <div className="">
+                <div className="grid grap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
                     {
                         skillItem.map(({ imgSrc, label, desc }, key)=>  
                         (
-                            'SkillCard'
+                            <SkillCard 
+                            key={key}
+                            imgSrc={imgSrc}
+                            label={label}
+                            desc={desc}
+                            />
                         ))
                     }
                 </div>
