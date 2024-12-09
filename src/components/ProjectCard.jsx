@@ -31,18 +31,18 @@ const ProjectCard = ({
             <div className="flex items-center justify-between gap-4">
 
                 <div>
-                    <h3 className="title-1">{title}</h3>
+                    <h3 className="title-1 mb-3">{title}</h3>
 
-                    <div className="">
+                    <div className="flex flex-wrap items-center gap-2">
                         {tags.map((label, key)=>(
-                            <span key={key} className="">
+                            <span key={key} className="h-8 text-sm text-zinc-400 bg-zinc-50/5 grid items-center px-3 rounded-lg">
                                 {label}
                             </span>
                         ))}
                     </div>
                 </div>
 
-                <div className="">
+                <div className="w-11 h-11 rounded-lg grid place-items-center bg-sky-400 text-zinc-950 shrink-0">
                     <span className="material-symbols-rounded" aria-hidden="true">
                         arrow_outward
                     </span>
@@ -50,7 +50,7 @@ const ProjectCard = ({
 
             </div>
 
-            <a href={projectLink} target='_blank' className="">
+            <a href={projectLink} target='_blank' className="absolute inset-0">
 
             </a>
 
