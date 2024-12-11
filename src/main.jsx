@@ -6,13 +6,14 @@
 /** 
  *  NOde modules  
  */
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
 
 /** 
  * Components
  */
-import App from './App.jsx'
+import App from './App.jsx';
+import 'lenis/dist/lenis.css';
 
 /**
  * CSS link
