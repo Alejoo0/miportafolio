@@ -79,6 +79,36 @@ const Footer = () => {
                         
                         <div>
                           <p className="">Sitemap</p>
+
+                          <ul>
+                            {sitemap.map(({ label, href}, key)=>(
+                              <li key={key}>
+                                <a 
+                                href={href}
+                                className=""
+                                >
+                                  {label}
+                                  </a>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                        
+                        <div>
+                          <p className="">Socials</p>
+
+                          <ul>
+                            {socials.map(({ label, href}, key)=>(
+                              <li key={key}>
+                                <a 
+                                href={href}
+                                className=""
+                                >
+                                  {label}
+                                  </a>
+                              </li>
+                            ))}
+                          </ul>
                         </div>
 
                     </div>
