@@ -77,7 +77,7 @@ const Review = () => {
         <section id="reviews" className="section overflow-hidden">
                 <div className="container">
                     <h2 className="headline-2 mb-8 reveal-up">
-                        What our customers say
+                      Lo que dicen nuestros clientes
                     </h2>
 
                     <div className="scrub-slide flex items-stretch gap-3 w-fit">

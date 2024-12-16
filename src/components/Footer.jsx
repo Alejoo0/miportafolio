@@ -64,7 +64,7 @@ const Footer = () => {
                     <div className="mb-10">
 
                         <h2 className="headline-1 mb-8 lg:max-w-[12ch] reveal-up">
-                            Let&apos;s work together today!
+                          ¡Trabajemos juntos hoy!
                         </h2>
 
 
@@ -79,7 +79,7 @@ const Footer = () => {
                     <div className="grid grid-cols-2 gap-4 lg:pl-20">
                         
                         <div>
-                          <p className="mb-2 reveal-up">Sitemap</p>
+                          <p className="mb-2 reveal-up">Mapa del sitio</p>
 
                           <ul>
                             {sitemap.map(({ label, href}, key)=>(
@@ -97,7 +97,7 @@ const Footer = () => {
                         </div>
                         
                         <div>
-                          <p className="mb-2 reveal-up">Socials</p>
+                          <p className="mb-2 reveal-up">Redes Sociales</p>
 
                           <ul>
                             {socials.map(({ label, href}, key)=>(
