@@ -20,29 +20,28 @@ const sitemap = [
     {
       label: 'Work',
       href: '#work'
-    },
-    {
-      label: 'Contact me',
-      href: '#contact'
     }
 ];
   
 const socials = [
     {
       label: 'GitHub',
-      href: 'https://www.github.com/codewithsadee-org'
+      href: 'https://github.com/Alejoo0'
     },
     {
       label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/codewithsadee'
+      href: 'https://www.linkedin.com/in/damian-cortes-zamora-a54005325/'
     },
+    /**
+     * TWitter
     {
       label: 'Twitter X',
       href: 'https://x.com/codewithsadee_'
     },
+         */
     {
       label: 'Instagram',
-      href: 'https://www.instagram.com/codewithsadee'
+      href: 'https://www.instagram.com/_damiancortes/'
     },
 ];
 
