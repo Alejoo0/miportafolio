@@ -39,16 +39,22 @@ const skillItem = [
       label: 'React',
       desc: 'Framework'
     },
+    
     {
       imgSrc: '/images/tailwindcss.svg',
       label: 'TailwindCSS',
       desc: 'User Interface'
     },
     {
-      imgSrc: '/images/linux.svg',
-      label: 'Linux',
-      desc: 'Operative System'
+      imgSrc: '/images/python.png',
+      label: 'Python',
+      desc: 'Backend language'
     },
+    {
+      imgSrc: '/images/java.png',
+      label: 'Java',
+      desc: 'Language'
+    }
 ];
 
 const Skill = () => {

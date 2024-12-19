@@ -7,8 +7,6 @@
  * 
  * Components
  */
-import { ButtonPrimary } from "./Button";
-import { ButtonOutline } from "./Button";
 
 const Hero = () => {
     return (
@@ -30,9 +28,6 @@ const Hero = () => {
                 
                     </div>
 
-                    <h2 className="headline-1 max-w-[15ch] mt-5 mb-8 lg:mb-10">
-
-                    </h2>
                 </div>
             </div>
 
