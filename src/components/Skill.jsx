@@ -10,11 +10,6 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
     {
-      imgSrc: '/images/figma.svg',
-      label: 'Figma',
-      desc: 'Design tool'
-    },
-    {
       imgSrc: '/images/css3.svg',
       label: 'CSS',
       desc: 'User Interface'
@@ -48,6 +43,11 @@ const skillItem = [
       imgSrc: '/images/tailwindcss.svg',
       label: 'TailwindCSS',
       desc: 'User Interface'
+    },
+    {
+      imgSrc: '/images/linux.svg',
+      label: 'Linux',
+      desc: 'Operative System'
     },
 ];
 

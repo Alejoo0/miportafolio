@@ -22,10 +22,6 @@ const sitemap = [
       href: '#work'
     },
     {
-      label: 'Reviews',
-      href: '#reviews'
-    },
-    {
       label: 'Contact me',
       href: '#contact'
     }
@@ -48,10 +44,6 @@ const socials = [
       label: 'Instagram',
       href: 'https://www.instagram.com/codewithsadee'
     },
-    {
-      label: 'CodePen',
-      href: 'https://codepen.io/codewithsadee'
-    }
 ];
 
 const Footer = () => {
@@ -132,7 +124,7 @@ const Footer = () => {
                         />
                       </a>
                       <p className="text-zinc-500 text-sm reveal-up">
-                          &copy; 2024 <span className="text-zinc-200">codewithdamn</span>
+                          &copy; 2024 <span className="text-zinc-200">_damiancortes</span>
                       </p>
                 </div>
 

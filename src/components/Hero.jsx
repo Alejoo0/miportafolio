@@ -31,22 +31,8 @@ const Hero = () => {
                     </div>
 
                     <h2 className="headline-1 max-w-[15ch] mt-5 mb-8 lg:mb-10">
-                        Construyendo sitios web modernos y escalables para el futuro
+
                     </h2>
-
-                    <div className="flex items-center gap-3">
-                        <ButtonPrimary 
-                            label="Descargar CV"
-                            icon ="download"
-                        />
-
-
-                        <ButtonOutline
-                            href="#about"
-                            label="Desplácese hacia abajo"
-                            icon="arrow_downward"
-                        />
-                    </div>
                 </div>
             </div>
 
