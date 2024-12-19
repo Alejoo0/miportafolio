@@ -99,7 +99,7 @@ const Contact = () => {
                             id="name" 
                             autoComplete="name"
                             required
-                            placeholder="Damian Cortes"
+                            placeholder="nombre"
                             className="text-field reveal-up"
                             />
 
